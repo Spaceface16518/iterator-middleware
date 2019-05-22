@@ -6,9 +6,10 @@ pub struct Iterware<I, F> {
     f: F,
 }
 
-impl<I: Iterator, F> Iterator for Iterware<I, F>
+impl<I, F> Iterator for Iterware<I, F>
     where
         F: Fn(&I::Item) -> (),
+        I: Iterator,
 {
     type Item = I::Item;
 
