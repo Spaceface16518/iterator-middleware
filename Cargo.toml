@@ -5,4 +5,5 @@ authors = ["Spaceface16518 <33424649+Spaceface16518@users.noreply.github.com>"]
 edition = "2018"
 license = "MIT"
 repository = "https://github.com/Spaceface16518/iterator-middleware"
+readme = "README.md"
 description = "Simple middleware for iterators"
