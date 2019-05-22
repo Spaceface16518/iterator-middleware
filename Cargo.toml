@@ -6,5 +6,3 @@ edition = "2018"
 license = "MIT"
 repository = "https://github.com/Spaceface16518/iterator-middleware"
 description = "Simple middleware for iterators"
-
-[dependencies]
